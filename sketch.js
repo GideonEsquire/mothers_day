@@ -21,7 +21,9 @@ function setup() {
 }
 
 function draw() {
-  image(bg, 0, 0, windowWidth, windowHeight);
+  background(255, 255, 255);
+  b = 10;
+  image(bg, b, b, windowWidth - b*2, windowHeight - b*2);
   for (i = 0; i < hearts.length; i++) {
     hearts[i].show();
     hearts[i].jitter();
