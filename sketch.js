@@ -17,13 +17,14 @@ function setup() {
           random(0, 100),
           random(12, 24));
   }
-
 }
 
 function draw() {
   background(255, 255, 255);
+
   b = 10;
   image(bg, b, b, windowWidth - b*2, windowHeight - b*2);
+
   for (i = 0; i < hearts.length; i++) {
     hearts[i].show();
     hearts[i].jitter();

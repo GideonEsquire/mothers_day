@@ -22,5 +22,4 @@ class Heart {
   sin_move() {
       this.y += sin(frameCount/20 + this.offset);
   }
-
 }
