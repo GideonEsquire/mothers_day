@@ -3,8 +3,8 @@ let hearts = [];
 let bg;
 
 function preload() {
-  heart_img = loadImage('assets/heart.png');
-  bg = loadImage('assets/mothers_day.jpg')
+  heart_img = loadImage('assets/pink_heart.png');
+  bg = loadImage('assets/mothers_day.png')
 }
 
 function setup() {
