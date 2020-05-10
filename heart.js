@@ -13,9 +13,9 @@ class Heart {
   }
 
   jitter() {
-      let jitter_amount = 0.4;
+      let jitter_amount = 1;
       let dif = random(-jitter_amount, jitter_amount)
-      this.x += dif;
+      this.x += dif*2;
       this.y += dif;
   }
 
