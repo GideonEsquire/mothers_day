@@ -5,10 +5,10 @@ var sound;
 var music;
 
 function preload() {
-  heart_img = loadImage('assets/pink_heart.png');
-  bg = loadImage('assets/mothers_day.png')
-  sound = loadSound('assets/sound.wav');
-  music = loadSound('assets/bensound-tenderness.mp3');
+  heart_img = loadImage('/assets/pink_heart.png');
+  bg = loadImage('/assets/mothers_day.png')
+  sound = loadSound('/assets/sound.wav');
+  music = loadSound('/assets/bensound-tenderness.mp3');
 }
 
 function setup() {
